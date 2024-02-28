@@ -1,13 +1,16 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        String s = String.valueOf(x);
-        int left = 0;
-        int right = s.length() - 1;
-        while(left < right){
-            if(s.charAt(left) != s.charAt(right)) return false;
-            left++;
-            right--;
+        int sum = 0;
+        int number = x;
+        int multiplier = 10; 
+        while(number > 0){
+            sum = (number % 10) + (multiplier * sum);
+            number /= 10; 
         }
-        return true;
+        if(sum==x){
+            return true;
+        }
+        else
+        return false;
     }
 }
