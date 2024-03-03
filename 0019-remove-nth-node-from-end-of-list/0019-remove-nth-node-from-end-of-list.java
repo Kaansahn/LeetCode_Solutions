@@ -10,24 +10,17 @@
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        Stack<ListNode> s = new Stack<>();
-        ListNode curr = head;
-        int size = 0;
-
-        while(curr != null){
-            s.push(curr);
-            curr = curr.next;
-            size++;
+        ListNode left = head, right = head.next;
+        int i = 1;
+        while(right != null){
+            right = right.next;
+            if(i > n) left = left.next;
+            i++;
         }
 
-        if(size == n) return head.next;
+        if(i == n) return head.next;
 
-        while(n >= 0 && !s.isEmpty()){
-            curr = s.pop();
-            n--;
-        }
-
-        curr.next = curr.next.next;
+        left.next = left.next.next;
 
         return head;
     }
