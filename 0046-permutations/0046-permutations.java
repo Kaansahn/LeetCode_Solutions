@@ -4,21 +4,18 @@ class Solution {
         backtrack(result, new ArrayList<>(), nums);
         return result;
     }
-    
-    private void backtrack(List<List<Integer>> result, List<Integer> tempList, int[] nums){
-        if(tempList.size() == nums.length){
-            result.add(new ArrayList<>(tempList));
+
+    private void backtrack(List<List<Integer>> result, List<Integer> temp, int[] nums){
+        if(temp.size() == nums.length){
+            result.add(new ArrayList<>(temp));
             return;
         }
-        
         for(int i = 0; i < nums.length; i++){
-            if(!tempList.contains(nums[i])){
-                tempList.add(nums[i]);
-                backtrack(result, tempList, nums);
-                tempList.removeLast();
+            if(!temp.contains(nums[i])){
+                temp.add(nums[i]);
+                backtrack(result, temp, nums);
+                temp.removeLast();
             }
         }
     }
-
-    
 }
