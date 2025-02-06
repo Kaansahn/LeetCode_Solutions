@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0001-two-sum) |
+| [0035-search-insert-position](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0035-search-insert-position) |
 ## Hash Table
 |  |
 | ------- |
@@ -28,4 +29,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0020-valid-parentheses) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
