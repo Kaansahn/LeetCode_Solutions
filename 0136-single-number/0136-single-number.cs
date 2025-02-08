@@ -1,14 +1,11 @@
 public class Solution {
     public int SingleNumber(int[] nums) {
-        int i = 1;
-        Array.Sort(nums);
+        int result = 0;
 
-        while(i < nums.Length)
+        foreach(int num in nums)
         {
-            if(nums[i] != nums[i-1]) return nums[i-1];
-            i = i + 2;
+            result ^= num;
         }
-
-        return nums[nums.Length - 1];
+        return result;
     }
 }
