@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0001-two-sum) |
 | [0035-search-insert-position](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0035-search-insert-position) |
+| [0046-permutations](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0046-permutations) |
 | [0118-pascals-triangle](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0169-majority-element) |
@@ -77,4 +78,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0169-majority-element) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
