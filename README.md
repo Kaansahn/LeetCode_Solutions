@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0792-binary-search](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0792-binary-search) |
 ## Hash Table
 |  |
@@ -71,10 +72,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 ## Sorting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 ## Counting
 |  |
 | ------- |
@@ -84,4 +87,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0046-permutations) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Kaansahn/LeetCode_Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
